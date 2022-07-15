@@ -13,6 +13,7 @@ namespace JenkinsApp
             MyMaths math = new MyMaths();
             Console.WriteLine("Addition = " + math.add(a, b));
             Console.WriteLine("Multiplication = " + math.add(a, b));
+            Console.ReadLine();
         }
     }
 }
