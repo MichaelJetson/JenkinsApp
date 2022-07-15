@@ -12,7 +12,7 @@ namespace JenkinsApp
             int b = Convert.ToInt32(Console.ReadLine());
             MyMaths math = new MyMaths();
             Console.WriteLine("Addition = " + math.add(a, b));
-            Console.WriteLine("Multiplication = " + math.add(a, b));
+            Console.WriteLine("Multiplication = " + math.multiply(a, b));
             Console.ReadLine();
         }
     }
